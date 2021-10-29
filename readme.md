@@ -30,16 +30,16 @@ Git Commands:
     _(OTHER IMPORTANT COMMANDS )_
 
 5.  git clone [https://github.com/](https://github.com/)&lt;repo-name which is to be cloned> // This provides similar functionality to download as zip on github cloud repos
-6.  Git reset // undo for git add . (unstages all changes)
-7.  Git status // check status of local/online repository
-8.  Git log // check commit history
-9.  Git log --oneline // very similar to git log but gives details in a short and precise manner
-10. Git branch dev // create a new branch but not jump into it. At this stage we are not working in ‘dev’ branch , we have just initialised it.
-11. Git checkout dev // Now we jump into dev and whatever we do will be saved inside in dev branch
+6.  Git reset           // undo for git add . (unstages all changes)
+7.  Git status          // check status of local/online repository
+8.  Git log             // check commit history
+9.  Git log --oneline   // very similar to git log but gives details in a short and precise manner
+10. Git branch dev      // create a new branch but not jump into it. At this stage we are not working in ‘dev’ branch , we have just initialised it.
+11. Git checkout dev    // Now we jump into dev and whatever we do will be saved inside in dev branch
 
     // Original branch is known as master branch. It is created whenever we do git init
 
-12. Git checkout -b dev ( does 9 and 10 in single step )
+12. Git checkout -b dev ( does 10 and 11 in single step )
 13. Git merge dev ( for merging dev we should not be in dev. We should be in that branch where u want dev to be merged )
 
     // for ex: lets say u want to merge dev with master and you are currently on dev.
