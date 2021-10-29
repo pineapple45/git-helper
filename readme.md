@@ -39,7 +39,7 @@ Git Commands:
 
     // Original branch is known as master branch. It is created whenever we do git init
 
-12. Git checkout -b dev ( does 9 and 10 in single step )
+12. Git checkout -b dev ( does 10 and 11 in single step )
 13. Git merge dev ( for merging dev we should not be in dev. We should be in that branch where u want dev to be merged )
 
     // for ex: lets say u want to merge dev with master and you are currently on dev.
